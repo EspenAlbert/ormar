@@ -1,4 +1,6 @@
 
+
+
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
@@ -10,9 +12,8 @@
       
       
       
-      
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.5">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.5">
     
     
       
@@ -20,21 +21,19 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.21aed14c.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.63b94e9e.min.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/palette.7f672a1f.min.css">
+      
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.196e0c26.min.css">
         
-          
-          
-          <meta name="theme-color" content="#4051b5">
-        
+        <meta name="theme-color" content="#3f51b5">
       
     
     
     
       
-        
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
@@ -58,11 +57,9 @@
     
     
     
-    
-    
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="indigo" data-md-color-accent="">
-      
   
+    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
@@ -78,9 +75,7 @@
       
     </div>
     
-      
-
-<header class="md-header" data-md-component="header">
+      <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
     <a href=".." title="ormar" class="md-header-nav__button md-logo" aria-label="ormar">
       
@@ -114,7 +109,7 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
@@ -155,6 +150,8 @@
     
     <div class="md-container" data-md-component="container">
       
+        
+      
       
         
       
@@ -165,9 +162,7 @@
               <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="ormar" class="md-nav__button md-logo" aria-label="ormar">
       
@@ -199,7 +194,7 @@
 
 
   <li class="md-nav__item">
-    <a href=".." class="md-nav__link">
+    <a href=".." title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -211,7 +206,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../install/" class="md-nav__link">
+    <a href="../install/" title="Installation" class="md-nav__link">
       Installation
     </a>
   </li>
@@ -223,7 +218,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../models/" class="md-nav__link">
+    <a href="../models/" title="Models" class="md-nav__link">
       Models
     </a>
   </li>
@@ -235,7 +230,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../fields/" class="md-nav__link">
+    <a href="../fields/" title="Fields" class="md-nav__link">
       Fields
     </a>
   </li>
@@ -247,7 +242,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../relations/" class="md-nav__link">
+    <a href="../relations/" title="Relations" class="md-nav__link">
       Relations
     </a>
   </li>
@@ -269,10 +264,12 @@
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
         Queries
-        <span class="md-nav__icon md-icon"></span>
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
       </label>
     
-    <a href="./" class="md-nav__link md-nav__link--active">
+    <a href="./" title="Queries" class="md-nav__link md-nav__link--active">
       Queries
     </a>
     
@@ -284,7 +281,9 @@
   
   
     <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-scrollfix>
@@ -448,7 +447,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../fastapi/" class="md-nav__link">
+    <a href="../fastapi/" title="Use with Fastapi" class="md-nav__link">
       Use with Fastapi
     </a>
   </li>
@@ -460,7 +459,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../mypy/" class="md-nav__link">
+    <a href="../mypy/" title="Use with mypy" class="md-nav__link">
       Use with mypy
     </a>
   </li>
@@ -472,7 +471,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../plugin/" class="md-nav__link">
+    <a href="../plugin/" title="PyCharm plugin" class="md-nav__link">
       PyCharm plugin
     </a>
   </li>
@@ -484,7 +483,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../contributing/" class="md-nav__link">
+    <a href="../contributing/" title="Contributing" class="md-nav__link">
       Contributing
     </a>
   </li>
@@ -496,7 +495,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../releases/" class="md-nav__link">
+    <a href="../releases/" title="Release Notes" class="md-nav__link">
       Release Notes
     </a>
   </li>
@@ -520,7 +519,9 @@
   
   
     <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-scrollfix>
@@ -688,6 +689,9 @@
                   </a>
                 
                 
+                  
+                
+                
                 <h1 id="queries">Queries</h1>
 <h2 id="queryset">QuerySet</h2>
 <p>Each Model is auto registered with a <code>QuerySet</code> that represents the underlaying query and it's options.</p>
@@ -758,6 +762,7 @@
     <span class="n">position</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">ormar</span><span class="o">.</span><span class="n">Integer</span><span class="p">()</span>
 </code></pre></div>
 </td></tr></table>
+
 <p>we can demonstrate available methods to fetch and save the data into the database.</p>
 <h3 id="create">create</h3>
 <p><code>create(**kwargs): -&gt; Model</code> </p>
@@ -769,6 +774,7 @@
 <span class="k">await</span> <span class="n">Track</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="n">album</span><span class="o">=</span><span class="n">malibu</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;The Bird&quot;</span><span class="p">,</span> <span class="n">position</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 </code></pre></div>
 </td></tr></table>
+
 <p>The alternative is a split creation and persistence of the <code>Model</code>.
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
 2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="n">malibu</span> <span class="o">=</span> <span class="n">Album</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;Malibu&quot;</span><span class="p">)</span>
@@ -793,6 +799,7 @@
 <span class="n">track</span> <span class="o">==</span> <span class="n">track2</span> <span class="c1"># True since it&#39;s the only row in db in our example</span>
 </code></pre></div>
 </td></tr></table>
+
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>If no row meets the criteria <code>NoMatch</code> exception is raised.</p>
@@ -813,6 +820,7 @@
 <span class="c1"># return True as the same db row is returned</span>
 </code></pre></div>
 </td></tr></table>
+
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Despite being a equivalent row from database the <code>album</code> and <code>album2</code> in example above are 2 different python objects!
@@ -885,6 +893,7 @@ Updating one of them will not refresh the second one until you excplicitly load(
 </span><span class="hll"><span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">all_books</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span>
 </span></code></pre></div>
 </td></tr></table>
+
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Queryset needs to be filtered before updating to prevent accidental overwrite.</p>
@@ -958,6 +967,7 @@ Updating one of them will not refresh the second one until you excplicitly load(
 </span><span class="hll"><span class="k">assert</span> <span class="k">await</span> <span class="n">Book</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">count</span><span class="p">()</span> <span class="o">==</span> <span class="mi">1</span>
 </span></code></pre></div>
 </td></tr></table>
+
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Note that if you want to create a new object you either have to pass pk column value or pk column has to be set as autoincrement</p>
@@ -1027,6 +1037,7 @@ Updating one of them will not refresh the second one until you excplicitly load(
 <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">todoes</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span>
 </code></pre></div>
 </td></tr></table>
+
 <h3 id="bulk_update">bulk_update</h3>
 <p><code>bulk_update(objects: List["Model"], columns: List[str] = None) -&gt; None</code></p>
 <p>Allows to update multiple instance at once.</p>
@@ -1055,6 +1066,7 @@ Updating one of them will not refresh the second one until you excplicitly load(
 <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">completed</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span>
 </code></pre></div>
 </td></tr></table>
+
 <h3 id="delete">delete</h3>
 <p><code>delete(each: bool = False, **kwargs) -&gt; int</code></p>
 <p>QuerySet level delete is used to delete multiple records at once.</p>
@@ -1122,6 +1134,7 @@ Updating one of them will not refresh the second one until you excplicitly load(
 </span><span class="hll"><span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">all_books</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span>
 </span></code></pre></div>
 </td></tr></table>
+
 <h3 id="all">all</h3>
 <p><code>all(self, **kwargs) -&gt; List[Optional["Model"]]</code></p>
 <p>Returns all rows from a database for given model for set filter options.</p>
@@ -1138,6 +1151,7 @@ Updating one of them will not refresh the second one until you excplicitly load(
 <span class="c1"># will return a list of all Tracks in database</span>
 </code></pre></div>
 </td></tr></table>
+
 <h3 id="filter">filter</h3>
 <p><code>filter(**kwargs) -&gt; QuerySet</code></p>
 <p>Allows you to filter by any <code>Model</code> attribute/field 
@@ -1153,6 +1167,7 @@ as well as to fetch instances, with a filter across an FK relationship.</p>
 <span class="c1"># will return all tracks where the columns album name = &#39;Fantasies&#39;</span>
 </code></pre></div>
 </td></tr></table>
+
 <p>You can use special filter suffix to change the filter operands:</p>
 <ul>
 <li>exact - like <code>album__name__exact='Malibu'</code> (exact match)</li>
@@ -1187,6 +1202,7 @@ the <code>exclude(name='John')</code> equals to <code>where name &lt;&gt; 'John'
 <span class="c1"># returns all tracks with position &lt; 3</span>
 </code></pre></div>
 </td></tr></table>
+
 <h3 id="select_related">select_related</h3>
 <p><code>select_related(related: Union[List, str]) -&gt; QuerySet</code></p>
 <p>Allows to prefetch related models. </p>
@@ -1197,6 +1213,7 @@ the <code>exclude(name='John')</code> equals to <code>where name &lt;&gt; 'John'
 <span class="c1"># will return album will all columns tracks</span>
 </code></pre></div>
 </td></tr></table>
+
 <p>You can provide a string or a list of strings</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
 2
@@ -1207,6 +1224,7 @@ the <code>exclude(name='John')</code> equals to <code>where name &lt;&gt; 'John'
 <span class="c1"># as well as classes students</span>
 </code></pre></div>
 </td></tr></table>
+
 <p>Exactly the same behavior is for Many2Many fields, where you put the names of Many2Many fields and the final <code>Models</code> are fetched for you.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -1227,6 +1245,7 @@ all queries the not nullable <code>Models</code> will be auto prefetched, even i
 <span class="c1"># will return just one Track</span>
 </code></pre></div>
 </td></tr></table>
+
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>All methods that do not return the rows explicitly returns a QueySet instance so you can chain them together</p>
@@ -1241,6 +1260,7 @@ all queries the not nullable <code>Models</code> will be auto prefetched, even i
 <span class="c1"># will return just one Track, but this time the second one</span>
 </code></pre></div>
 </td></tr></table>
+
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>All methods that do not return the rows explicitly returns a QueySet instance so you can chain them together</p>
@@ -1255,6 +1275,7 @@ all queries the not nullable <code>Models</code> will be auto prefetched, even i
 <span class="n">no_of_books</span> <span class="o">=</span> <span class="k">await</span> <span class="n">Book</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
 </code></pre></div>
 </td></tr></table>
+
 <h3 id="exists">exists</h3>
 <p><code>exists() -&gt; bool</code></p>
 <p>Returns a bool value to confirm if there are rows matching the given criteria (applied with <code>filter</code> and <code>exclude</code>)</p>
@@ -1263,6 +1284,7 @@ all queries the not nullable <code>Models</code> will be auto prefetched, even i
 <span class="n">has_sample</span> <span class="o">=</span> <span class="k">await</span> <span class="n">Book</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">&#39;Sample&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">exists</span><span class="p">()</span>
 </code></pre></div>
 </td></tr></table>
+
 <h3 id="fields">fields</h3>
 <p><code>fields(columns: Union[List, str, set, dict]) -&gt; QuerySet</code></p>
 <p>With <code>fields()</code> you can select subset of model columns to limit the data load.</p>
@@ -1356,6 +1378,7 @@ all queries the not nullable <code>Models</code> will be auto prefetched, even i
                          <span class="n">aircon_type</span><span class="o">=</span><span class="s1">&#39;Auto&#39;</span><span class="p">)</span>
 </code></pre></div>
 </td></tr></table>
+
 <p>You can select specified fields by passing a <code>str, List[str], Set[str] or dict</code> with nested definition.</p>
 <p>To include related models use notation <code>{related_name}__{column}[__{optional_next} etc.]</code>.</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
@@ -1377,6 +1400,7 @@ all queries the not nullable <code>Models</code> will be auto prefetched, even i
     <span class="k">assert</span> <span class="n">car</span><span class="o">.</span><span class="n">manufacturer</span><span class="o">.</span><span class="n">founded</span> <span class="ow">is</span> <span class="kc">None</span>
 </code></pre></div>
 </td></tr></table>
+
 <p><code>fields()</code> can be called several times, building up the columns to select.</p>
 <p>If you include related models into <code>select_related()</code> call but you won't specify columns for those models in fields 
 - implies a list of all fields for those nested models.</p>
@@ -1391,6 +1415,7 @@ all queries the not nullable <code>Models</code> will be auto prefetched, even i
 <span class="k">assert</span> <span class="n">all_cars</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">manufacturer</span><span class="o">.</span><span class="n">founded</span> <span class="o">==</span> <span class="mi">1937</span>
 </code></pre></div>
 </td></tr></table>
+
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Mandatory fields cannot be excluded as it will raise <code>ValidationError</code>, to exclude a field it has to be nullable.</p>
@@ -1401,6 +1426,7 @@ all queries the not nullable <code>Models</code> will be auto prefetched, even i
 <span class="c1"># will raise pydantic ValidationError as company.name is required</span>
 </code></pre></div>
 </td></tr></table>
+
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>Pk column cannot be excluded - it's always auto added even if not explicitly included.</p>
@@ -1478,6 +1504,7 @@ all queries the not nullable <code>Models</code> will be auto prefetched, even i
                                                          <span class="p">})</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
 </code></pre></div>
 </td></tr></table>
+
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>All methods that do not return the rows explicitly returns a QueySet instance so you can chain them together</p>
@@ -1627,6 +1654,7 @@ all queries the not nullable <code>Models</code> will be auto prefetched, even i
 </span><span class="c1"># will raise pydantic ValidationError as company.name is required</span>
 </code></pre></div>
 </td></tr></table>
+
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Mandatory fields cannot be excluded as it will raise <code>ValidationError</code>, to exclude a field it has to be nullable.</p>
@@ -1756,6 +1784,7 @@ MODEL: 2 - Child Modles: [2]
 <span class="k">await</span> <span class="n">Toy</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;Toy 6&quot;</span><span class="p">,</span> <span class="n">owner</span><span class="o">=</span><span class="n">hermes</span><span class="p">)</span>
 </code></pre></div>
 </td></tr></table>
+
 <p>To order by main model field just provide a field name</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
 2
@@ -1770,6 +1799,7 @@ MODEL: 2 - Child Modles: [2]
 <span class="k">assert</span> <span class="n">toys</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">owner</span> <span class="o">==</span> <span class="n">aphrodite</span>
 </code></pre></div>
 </td></tr></table>
+
 <p>To sort on nested models separate field names with dunder '__'.</p>
 <p>You can sort this way across all relation types -&gt; <code>ForeignKey</code>, reverse virtual FK and <code>ManyToMany</code> fields.</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
@@ -1781,6 +1811,7 @@ MODEL: 2 - Child Modles: [2]
 <span class="k">assert</span> <span class="n">toys</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">owner</span><span class="o">.</span><span class="n">name</span> <span class="o">==</span> <span class="n">toys</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="o">.</span><span class="n">owner</span><span class="o">.</span><span class="n">name</span> <span class="o">==</span> <span class="s2">&quot;Zeus&quot;</span>
 </code></pre></div>
 </td></tr></table>
+
 <p>To sort in descending order provide a hyphen in front of the field name</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
 2
@@ -1799,6 +1830,7 @@ MODEL: 2 - Child Modles: [2]
 <span class="k">assert</span> <span class="n">owner</span><span class="o">.</span><span class="n">toys</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">name</span> <span class="o">==</span> <span class="s2">&quot;Toy 1&quot;</span>
 </code></pre></div>
 </td></tr></table>
+
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>All methods that do not return the rows explicitly returns a QueySet instance so you can chain them together</p>
@@ -1823,7 +1855,7 @@ MODEL: 2 - Child Modles: [2]
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../relations/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../relations/" title="Relations" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -1838,7 +1870,7 @@ MODEL: 2 - Child Modles: [2]
           </a>
         
         
-          <a href="../fastapi/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../fastapi/" title="Use with Fastapi" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
@@ -1871,15 +1903,15 @@ MODEL: 2 - Child Modles: [2]
       
     </div>
     
-      <script src="../assets/javascripts/vendor.7e0ee788.min.js"></script>
-      <script src="../assets/javascripts/bundle.b3a72adc.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../assets/javascripts/vendor.d1f5a259.min.js"></script>
+      <script src="../assets/javascripts/bundle.f9edbbd5.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({
           base: "..",
           features: [],
           search: Object.assign({
-            worker: "../assets/javascripts/worker/search.4ac00218.min.js"
+            worker: "../assets/javascripts/worker/search.fae956e7.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
